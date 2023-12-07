@@ -1,0 +1,177 @@
+/* Allgemeine Formatierung und Schriftart für die Seite */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 231, 151);
+}
+
+/* Header-Styling */
+header {
+    background-color: #1DB954;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}
+
+/* Spotify-Logo-Styling */
+#spotify-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 175px;
+    height: 100px;
+}
+
+/* Überschrift-Styling */
+h1 {
+    margin-top: 30px; /* Abstand zum Logo hinzufügen */
+}
+
+/* Benutzerauthentifizierung-Styling */
+.user-auth {
+    float: right;
+}
+
+/* Hauptinhalt-Styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative; /* Position relativ zur Hauptseite */
+}
+
+/* Suchleisten-Styling */
+.search-bar {
+    margin-bottom: 20px;
+}
+
+/* Suchergebnisse-Styling */
+#search-results {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Künstlerbild-Styling */
+.artist {
+    margin: 10px;
+    text-align: center;
+}
+
+.artist img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Musik-Player-Styling */
+.music-player {
+    margin-top: 20px;
+}
+
+/* Container für Top-Podcasts, Top-Alben und Top-Charts */
+#top-podcasts-container,
+#top-albums-container,
+#top-charts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.podcast,
+.album,
+.track {
+    margin: 10px;
+    text-align: center;
+}
+
+.podcast img,
+.album img,
+.track img {
+    width: 850px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Styles für Playlist-Container */
+.playlist-container {
+    background-color: #1DB954;
+    padding: 20px;
+    position: absolute;
+    top: 150px; /* Position nach unten verschieben */
+    left: 10px;
+    text-align: center;
+}
+
+.playlist-container h2 {
+    color: #4056bb;
+}
+
+#create-playlist-btn {
+    background-color: #1d2db9;
+    color: #1DB954;
+    padding: 10px 60px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Styles für Playlist-Banner */
+.playlist-banner {
+    background-color: #1d54b9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#create-playlist-banner-btn {
+    background-color: #fff;
+    color: #1DB954;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Styles für den Container auf der rechten Seite */
+.right-container {
+    background-color: #1DB954;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 370px;
+    width: 200px; /* Breite des Containers reduzieren */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+/* Styles für Premium-Genießen-Banner */
+.premium-banner,
+.install-app-banner,
+.news-banner,
+.logged-in-banner {
+    background-color: #1d54b9;
+    color: #fff;
+    padding: 20px; /* Angepasstes Padding für bessere Übereinstimmung */
+    text-align: center;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 100%; /* Angepasste Breite, um mit dem Container übereinzustimmen */
+    margin-top: 1px;
+}
+
+.premium-banner:hover,
+.install-app-banner:hover,
+.news-banner:hover,
+.logged-in-banner:hover {
+    border-bottom: 4px solid #da1c1c;
+}

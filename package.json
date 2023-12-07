@@ -1,0 +1,17 @@
+{
+  "name": "spotify-clone-sven-janorschke",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sven Janorschke",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lowdb": "^6.1.1",
+    "node-fetch": "^2.6.9"
+  }
+}

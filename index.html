@@ -1,0 +1,103 @@
+<!--Code ist gut genug Auskommentiert damit man alles versteht.Zu dem ist da hier mein 2 angefangene Projekt was ich alleine machen mußte und eine REDME ist auch da.-->
+<!--Playlit erstellen ist Fake noch keine Funktion hatte erst ein React-Projekt aber Ari sagte wir dürfen kein React nutzen.-->
+<!--Demnach muße ich komplett neu anfangen mit dem Projekt und habe es leider nicht geschafft die Funktionen von Playlist und dem Container
+    auf der rechten fertig zu stellen.Style fehlt noch etc.-->
+    <!--Da ich auch alleine arbeiten mußte da mein Partner mit Nachholaufgaben beschäftigt ist habe ich es dennoch geschaft der Aufgabe des Projektes
+    alle nötigen Funkionen einzubauen.-->
+    <!--Auf grund meine 2 OP kann ich im moment leider nichts hören und ich habe Kommentare im Code gemacht und hoffe Sidar oder Ari bzw Mehmet werden das vernünftig
+    erklären können .Zur Not fragen via Chat schreiben dann kann ich auch drauf antworten wenn man code technisch nicht weiter kommt.-->
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spotify by Joschy1976</title>
+</head>
+<body>
+    <!-- Header-Bereich -->
+    <header>
+        <img src="spotify-brand-1-1.png" alt="Spotify Logo" id="spotify-logo">
+        <h1>Spotify by Joschy1976</h1>
+        <!-- Buttons für Benutzerauthentifizierung -->
+        <div class="user-auth">
+            <button id="login">Login</button>
+            <button id="register">Registrieren</button>
+        </div>
+    </header>
+
+    <!-- Hauptinhalt-Bereich -->
+    <main>
+        <!-- Suchleiste -->
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Musik suchen...">
+            <button id="search-btn">Suchen</button>
+        </div>
+
+        <!-- Container für Suchergebnisse -->
+        <div id="search-results">
+            <!-- Suchergebnisse werden hier angezeigt -->
+        </div>
+
+        <!-- Musik-Player Bereich -->
+        <div class="music-player">
+            <h2>Aktuell abgespielt</h2>
+            <!-- Audio-Player -->
+            <audio controls id="audio-player">
+                Ihr Browser unterstützt das Audio-Tag nicht.
+            </audio>
+        </div>
+
+        <!-- Container für Top-Podcasts -->
+        <div id="top-podcasts-container"></div>
+
+        <!-- Container für Top-Alben -->
+        <div id="top-albums-container"></div>
+
+        <!-- Container für Top-Charts -->
+        <div id="top-charts-container"></div>
+    </main>
+
+    <!-- Container für Playlists -->
+    <div class="playlist-container">
+        <h2>Playlist erstellen</h2>
+        <p>Erstelle deine erste Playlist!</p>
+        <button id="create-playlist-btn">Playlist erstellen</button>
+    </div>
+
+    <!-- Banner für Playlist-Erstellung -->
+    <div class="playlist-banner">
+        <p>Erstelle deine eigenen Playlists kostenlos!</p>
+        <button id="create-playlist-banner-btn">Playlist erstellen</button>
+    </div>
+
+    <!-- Container für die rechte Seitenleiste -->
+    <div class="right-container">
+        <!-- Banner für "Premium Genießen" -->
+        <div class="premium-banner">
+            <p>Premium genießen</p>
+        </div>
+
+        <!-- Banner für "App Installieren" -->
+        <div class="install-app-banner">
+            <p>App installieren</p>
+        </div>
+
+        <!-- Banner für "News" -->
+        <div class="news-banner">
+            <p>Neuigkeiten</p>
+        </div>
+
+        <!-- Banner für "Eingeloggten Benutzer" -->
+        <div class="logged-in-banner">
+            <p>Eingeloggt als: Joschy1976</p>
+        </div>
+    </div>
+
+    <!-- JavaScript-Datei -->
+    <script src="app.js"></script>
+</body>
+</html>
+
+
